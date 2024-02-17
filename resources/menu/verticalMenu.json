@@ -1,0 +1,78 @@
+{
+  "menu": [
+    {
+      "url": "/",
+      "name": "Home",
+      "icon": "menu-icon tf-icons ti ti-smart-home",
+      "slug": "pages-home"
+    },
+    {
+      "url": "dashboard",
+      "icon": "menu-icon tf-icons ti ti-dashboard",
+      "name": "Dashboard",
+      "slug": "pages-dashboard"
+    },
+    {
+      "icon": "menu-icon tf-icons ti ti-truck",
+      "name": "Vehicles",
+      "slug": "pages-Vehicles",
+      "submenu":[
+        {
+          "url": "vehiclesinformation",
+          "icon": "menu-icon tf-icons ti ti-truck",
+          "name": "Vehicles Information",
+          "slug": "pages-vehicles-information"
+        },
+        {
+          "url": "vehicle-maintenance",
+          "icon": "menu-icon tf-icons ti ti-book",
+          "name": "Vehicle Maintenance",
+          "slug": "pages-vehicle-maintenance"
+        },
+        {
+          "url": "vehicle-availability",
+          "icon": "menu-icon ti ti-clipboard-check",
+          "name": "Vehicle Availability",
+          "slug": "pages-vehicle-availability"
+        },
+        {
+          "url": "monitoringvehicles",
+          "icon": "menu-icon ti ti-gps",
+          "name": "Monitoring Vehicles",
+          "slug": "pages-monitoring-vehicle"
+        }
+      ]
+    },
+    {
+      "icon": "menu-icon ti ti-report-analytics",
+      "name": "Reports",
+      "slug": "pages-reports",
+      "submenu":[
+        {
+          "url": "reporting-and-analytics",
+          "icon": "menu-icon ti ti-report-analytics",
+          "name": "Reporting and Analytics",
+          "slug": "pages-reporting-and-analytics"
+        },
+        {
+          "url": "driver-performance",
+          "icon": "menu-icon ti ti-report-money",
+          "name": "Driver Performance",
+          "slug": "pages-driver-performance"
+        }
+      ]
+    },
+    {
+      "url": "driver-information",
+      "icon": "menu-icon tf-icons ti ti-user",
+      "name": "Driver Information",
+      "slug": "pages-driver-information"
+    },
+    {
+      "url": "qr-code",
+      "icon": "menu-icon ti ti-qrcode",
+      "name": "QR Code",
+      "slug": "pages-qr-code"
+    }
+  ]
+}
